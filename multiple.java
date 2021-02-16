@@ -1,15 +1,17 @@
-class Demo{
+interface Demo{
+    public void print();
+}
+interface Demo1{
+    public void hello();
+    }
+
+class Demo2 implements Demo,Demo1{
     public void print(){
         System.out.println("Hello");
     }
-}
-class Demo1{
     public void hello(){
         System.out.println("World");
     }
-
-}
-class Demo2 extends Demo,Demo1{
     }
 public class Main {
 
