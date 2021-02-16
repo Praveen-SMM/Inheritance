@@ -16,7 +16,7 @@ class Demo3 extends Demo{
         System.out.println(a+b);
     }
 }
-class Demo4 extends Demo2{
+class Demo4 extends Demo2,Demo3{
 
 }
 public class Main {
